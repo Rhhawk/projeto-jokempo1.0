@@ -1,0 +1,171 @@
+* {
+    font-family: "Press Start 2P", system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://picsum.photos/1900/900);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button {
+    font-size: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.8s ease-in-out;
+    transform: 0.8s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.6;
+    transform: scale(1.2);
+}
+
+.botoes {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    gap: 35px;
+}
+
+#rock {
+    background-color: blueviolet;
+
+}
+
+#paper {
+
+    background-color: lawngreen;
+}
+
+#scissors {
+    background-color: skyblue;
+}
+
+.paragrafo {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.result {
+    font-size: 21px;
+    color: rgb(114, 113, 113);
+    /*background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg, #FFCC70 10%, #ffe729 50%, #d04143 120%);
+    color: transparent;*/
+
+}
+
+.your-score span {
+    color: rgb(58, 152, 214);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ia-score span {
+    color: rgb(230, 31, 31);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h1{
+
+    font-size: 35px;
+    
+}
+
+.your-play{
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    left: -20px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    transition: left 1s ease-in-out;
+    font-size: 40px;
+    text-align: center;
+    border-color: black;
+    border: ridge 8px;
+}
+
+.ia-play{
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    right: -20px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    transition: right 1s ease-in-out;
+    font-size: 40px;
+    text-align: center;
+    border-color: black;
+    border: ridge 8px;
+    
+}
+
+.caixa-your{
+    background-color: darkblue;
+    font-size: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 140px;
+    height: 86.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-ia{
+    background-color: darkred;
+    font-size: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 140px;
+    height: 86.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.your-choice{
+  color: white;
+}
+
+.ia-choice{
+    color: white
+}
+
+.mascara-jokempo {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    
+}

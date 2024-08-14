@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Jokenpô</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="mascara-jokempo" onclick="cliqueiNaMascara()"></div>
+    <div class="main" >
+        <h1>JokenPô</h1>
+        <div class="botoes">
+            <button onclick="cliqueiNoBotao()" id="rock">&#x1F44A;</button>
+            <button onclick="cliqueiNoBotao()" id="paper">&#x1F590;</button>
+            <button onclick="cliqueiNoBotao()" id="scissors">&#x270C;</button>
+        </div>
+        <p class="result paragrafo">Resultado</p>
+        <p class="your-score paragrafo">Sua Pontuação:&nbsp;&nbsp; <span>0</span></p>
+        <p class="ia-score paragrafo">  Pontuação da IA: <span>0</span></p>
+
+        </div>
+    
+        <div class="your-play" onclick="cliqueiNaMascara()"><h1>Você</h1>
+            <div class="caixa-your"><p class="your-choice">?</p></div> <!--&#x1F91C;-->
+            </div>
+
+        <div class="ia-play" onclick="cliqueiNaMascara()"><h1>IA</h1>
+            <div class="caixa-ia"><p class="ia-choice">?</p></div> <!--&#x1F91B;-->
+        
+        
+        </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
