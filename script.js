@@ -14,10 +14,15 @@ let iaChoice = document.querySelector(".ia-choice")
 const mascara = document.querySelector(".mascara-jokempo")
 const defaultSymbol = "?"
 
+const GAME_CHOICE = { //ENUM codigo usado para definir um valor que ultiliza muito, todo enum e feito nesse padra AAA-AAA Maiuscula_Miuscula
+    ROCK: "rock",
+    PAPER: "paper",
+    SCISSORS: "scissors"
+}
 
 const playIa = () => {
 
-    const choices = ["rock", "paper", "scissors"];
+    const choices = [GAME_CHOICE.ROCK, GAME_CHOICE.PAPER, GAME_CHOICE.SCISSORS];//ENUM usado aqui no lugar desse = ["rock", "paper", "scissors"]
     const randomNumber = Math.floor(Math.random() * 3);
     return choices[randomNumber]; //const iaChoiceValue = choices[randomNumber];
 };
