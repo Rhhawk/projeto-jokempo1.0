@@ -6,5 +6,15 @@
 
 # Tecnologias:
 
+HTML
+<br>
+CSS
+<br>
+JAVASCRIPT
+
+<br>
+
+<br>
+<img width="800" src="https://github.com/Rhhawk/projeto-jokempo1.0/blob/main/img1.png" alt="img1">
 
 
